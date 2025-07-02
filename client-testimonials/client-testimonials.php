@@ -78,7 +78,10 @@ require CT_PLUGIN_DIR . 'includes/class-ct-loader.php';
  * @since    1.0.0
  */
 function ct_run_plugin() {
-	$plugin = new CT\Loader();
-	$plugin->run();
+	// Instantiate the loader class.
+	$loader = new CT\Loader();
+	// Run the loader to initialize hooks.
+	$loader->run();
 }
-ct_run_plugin();
+// Hook the plugin's main execution function to 'plugins_loaded'.
+add_action( 'plugins_loaded', 'ct_run_plugin' );

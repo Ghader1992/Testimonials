@@ -1,0 +1,35 @@
+/**
+ * Client Testimonials Shortcode Styles
+ */
+.ct-testimonials {
+	margin-bottom: 20px;
+}
+
+.ct-testimonial {
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #f9f9f9;
+}
+
+.ct-testimonial-title {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+.ct-testimonial-rating {
+	margin-bottom: 10px;
+	color: #f0ad4e; /* Orange color for stars */
+}
+
+.ct-testimonial-rating .dashicons {
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+.ct-testimonial-content p:last-child {
+	margin-bottom: 0;
+}

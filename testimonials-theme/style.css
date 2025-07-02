@@ -1,0 +1,73 @@
+/*
+Theme Name: Testimonials Theme
+Theme URI: https://example.com/testimonials-theme
+Author: Jules
+Author URI: https://example.com/
+Description: A minimal theme to display client testimonials using the Client Testimonials plugin.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: testimonials-theme
+Tags: custom-post-type, testimonials, minimal
+
+This theme is designed to work with the Client Testimonials plugin.
+It provides a simple page template to showcase testimonials.
+*/
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for centered content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header styling */
+.site-header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main content area */
+.site-content {
+    padding: 20px 0;
+}
+
+/* Footer styling */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+}
+
+/* Styling for the testimonials displayed by the shortcode */
+/* These styles complement the plugin's own CSS but can be more specific if needed */
+.page-template-page-testimonials .ct-testimonials {
+    /* Add theme-specific overrides or additions here */
+}
+
+.page-template-page-testimonials .ct-testimonial {
+    /* Example: Add a different background or border if desired by the theme */
+    /* border-left: 5px solid #337ab7; */
+}
